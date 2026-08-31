@@ -552,3 +552,14 @@ header {
 .navbar a:hover {
   color: #00aaff;
 }
+.bottom-photo {
+  width: 100%;
+  margin-top: 30px;
+  display: block;
+}
+
+.bottom-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
