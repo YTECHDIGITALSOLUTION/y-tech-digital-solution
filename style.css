@@ -552,4 +552,16 @@ header {
 .navbar a:hover {
   color: #00aaff;
 }
+/* Navigation Menu Text Fix */
+/* Navigation Menu Text Fix */
+.navbar ul li a {
+    color: #ffffff !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
 
+.navbar {
+    display: block !important;
+}
