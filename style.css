@@ -511,7 +511,13 @@ footer {
     }
 
     header {
-        flex-wrap: wrap;
-    }
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.top-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 }
