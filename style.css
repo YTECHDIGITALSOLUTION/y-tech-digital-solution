@@ -495,7 +495,7 @@ footer {
 
     nav {
         display: none;
-        width: 70%;
+        width: 100%;
     }
 
     nav.active {
