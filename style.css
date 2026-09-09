@@ -27,7 +27,7 @@ header {
 }
 
 .logo img {
-    width: 180px;
+    width: 130zzpx;
     height: auto;
     display: block;
 }
@@ -588,7 +588,7 @@ header {
   display: inline-block;
 }
 .logo img {
-  width: 180px !important;
+  width: 130px !important;
   height: auto !important;
   max-width: none !important;
 }
