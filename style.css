@@ -27,7 +27,7 @@ header {
 }
 
 .logo img {
-    width: 80px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -415,8 +415,8 @@ footer {
 
 .footer-logo img {
     .footer-logo img {
-    width: 80px !important;
-    max-width: 80px !important;
+    width: 150px !important;
+    max-width: 150px !important;
     height: auto !important;
     margin-bottom: 15px;
 }
@@ -533,7 +533,7 @@ header {
 }
 
 .logo img {
-  max-width: 90px;
+  max-width: 1500px;
   height: auto;
 }
 
@@ -558,8 +558,8 @@ header {
 }
 .logo img {
     .logo-img {
-    width: 80px !important;
+    width: 150px !important;
     height: auto !important;
-    max-width: 80px !important;
+    max-width: 150px !important;
     object-fit: contain;
 }
