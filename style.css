@@ -558,3 +558,8 @@ aaa
     width: 30px;
     height: auto;
 }
+.logo {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain;
+}
