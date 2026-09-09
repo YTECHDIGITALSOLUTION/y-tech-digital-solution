@@ -587,8 +587,3 @@ header {
   text-decoration: none;
   display: inline-block;
 }
-.logo img {
-  width: 130px !important;
-  height: auto !important;
-  max-width: none !important;
-}
