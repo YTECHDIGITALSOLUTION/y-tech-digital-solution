@@ -565,3 +565,25 @@ header {
 .navbar {
     display: block !important;
 }
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.contact-item h3 {
+  color: #ffffff;
+}
+
+.contact-item a {
+  color: #00aaff;
+  text-decoration: none;
+  display: inline-block;
+}
