@@ -27,7 +27,7 @@ header {
 }
 
 .logo img {
-    width: 130px;
+    width: 180px;
     height: auto;
     display: block;
 }
@@ -586,4 +586,9 @@ header {
   color: #00aaff;
   text-decoration: none;
   display: inline-block;
+}
+.logo img {
+  width: 180px !important;
+  height: auto !important;
+  max-width: none !important;
 }
