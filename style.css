@@ -23,13 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #222;
-}
-
-.logo img {
-    width: 250zzpx;
-    height: auto;
-    display: block;
+    border-bottom: 1px solid #222
 }
 
 nav ul {
