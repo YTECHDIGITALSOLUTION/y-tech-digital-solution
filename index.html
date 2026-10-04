@@ -274,3 +274,95 @@ Telegram
 </div>
 
 </div>
+</div>
+</section>
+
+</main>
+
+<!-- AI CHAT BUTTON -->
+<button id="ai-chat-button" onclick="openAIChat()">
+    💬 AI Chat
+</button>
+
+<!-- AI CHAT BOX -->
+<div id="ai-chat-box">
+
+    <div class="ai-chat-header">
+        <span>🤖 Y-Tech AI Assistant</span>
+        <button onclick="closeAIChat()">×</button>
+    </div>
+
+    <div id="ai-chat-messages">
+
+        <div class="ai-message">
+            Hello! 👋 Welcome to Y-Tech Digital Solution.
+            How can I help you today?
+        </div>
+
+    </div>
+
+    <div class="ai-chat-input">
+
+        <input
+            type="text"
+            id="ai-user-input"
+            placeholder="Type your message..."
+            onkeydown="if(event.key==='Enter') sendAIMessage()"
+        >
+
+        <button onclick="sendAIMessage()">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script>
+
+function openAIChat() {
+    document.getElementById("ai-chat-box").style.display = "flex";
+    document.getElementById("ai-chat-button").style.display = "none";
+}
+
+function closeAIChat() {
+    document.getElementById("ai-chat-box").style.display = "none";
+    document.getElementById("ai-chat-button").style.display = "block";
+}
+
+function sendAIMessage() {
+
+    const input = document.getElementById("ai-user-input");
+    const message = input.value.trim();
+
+    if (message === "") return;
+
+    const messages = document.getElementById("ai-chat-messages");
+
+    const userMessage = document.createElement("div");
+    userMessage.className = "user-message";
+    userMessage.textContent = message;
+
+    messages.appendChild(userMessage);
+
+    input.value = "";
+
+    setTimeout(function() {
+
+        const aiMessage = document.createElement("div");
+        aiMessage.className = "ai-message";
+
+        aiMessage.textContent =
+            "Thank you for contacting Y-Tech Digital Solution. Our AI assistant will help you with our services, websites and digital solutions.";
+
+        messages.appendChild(aiMessage);
+
+        messages.scrollTop = messages.scrollHeight;
+
+    }, 500);
+}
+
+</script>
+
+</body>
+</html>
